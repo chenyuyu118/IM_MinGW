@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>875</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white;</string>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowTabbedDocks|QMainWindow::ForceTabbedDocks|QMainWindow::GroupedDragging|QMainWindow::VerticalTabs</set>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" rowspan="2">
+     <widget class="QLabel" name="profilePhoto">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>111</width>
+        <height>64</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="name">
+      <property name="text">
+       <string>name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLabel" name="signature">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="addFriendButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>60</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="rsc.qrc">
+        <normaloff>:/image/关注.png</normaloff>:/image/关注.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="messageTab">
+       <attribute name="title">
+        <string notr="true"> 消息</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QListView" name="messageList"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="friendTab">
+       <attribute name="title">
+        <string> 好友</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QTreeWidget" name="friendTree">
+          <column>
+           <property name="text">
+            <string>好友</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="groupTab">
+       <attribute name="title">
+        <string>群组</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QListWidget" name="groupList"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="settingButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="rsc.qrc">
+        <normaloff>:/image/设置.png</normaloff>:/image/设置.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QComboBox" name="searchBox">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>34</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/设置.png</normaloff>:/image/设置.png</iconset>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+   <property name="toolTip">
+    <string>设置</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
+   <property name="priority">
+    <enum>QAction::NormalPriority</enum>
+   </property>
+  </action>
+  <action name="actiongroup">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/账号.png</normaloff>:/image/账号.png</iconset>
+   </property>
+   <property name="text">
+    <string>group</string>
+   </property>
+   <property name="toolTip">
+    <string>群组</string>
+   </property>
+  </action>
+  <action name="actionmyself">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/个人中心.png</normaloff>:/image/个人中心.png</iconset>
+   </property>
+   <property name="text">
+    <string>myself</string>
+   </property>
+   <property name="toolTip">
+    <string>个人中心</string>
+   </property>
+  </action>
+  <action name="actionEmoji">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/个人中心.png</normaloff>:/image/个人中心.png</iconset>
+   </property>
+   <property name="text">
+    <string>表情</string>
+   </property>
+   <property name="toolTip">
+    <string>发送表情</string>
+   </property>
+  </action>
+  <action name="actionCommunication">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/评论.png</normaloff>:/image/评论.png</iconset>
+   </property>
+   <property name="text">
+    <string>聊天</string>
+   </property>
+  </action>
+  <action name="actionmyInfo">
+   <property name="icon">
+    <iconset resource="rsc.qrc">
+     <normaloff>:/image/375345853.jpg</normaloff>:/image/375345853.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>myInfo</string>
+   </property>
+   <property name="toolTip">
+    <string>我的资料</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

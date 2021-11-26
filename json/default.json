@@ -1,0 +1,19 @@
+{
+  "label": "经典",
+  "row-column":[12,12],
+  "size": [40, 40],
+  "movie-size": [65, 65],
+  "image": {
+    ":/resource/emojis/qq/100@2x.gif": "dasdf",
+    ":/resource/emojis/qq/102@2x.gif": "dasdf",
+    ":/resource/emojis/qq/103@2x.gif": "dasdf",
+    ":/resource/emojis/qq/104@2x.gif": "dasdf",
+    ":/resource/emojis/qq/105@2x.gif": "dasdf",
+    ":/resource/emojis/qq/106@2x.gif": "dasdf",
+    ":/resource/emojis/qq/107@2x.gif": "dasdf",
+    ":/resource/emojis/qq/108@2x.gif": "dasdf"
+
+
+
+  }
+}

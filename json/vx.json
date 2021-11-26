@@ -1,0 +1,37 @@
+[
+  {
+    "label": "微信表情",
+    "row-column": [3, 6],
+    "size": [64, 64],
+    "movie-size": [65, 65],
+    "image": {
+     ":/emoji/vx/Addoil.png": "努力",
+     ":/emoji/vx/Cold.png": "冷漠",
+     ":/emoji/vx/KeepFighting.png": "努力奋斗",
+     ":/emoji/vx/NoProb.png": "没问题",
+     ":/emoji/vx/Shocked!.png": "震惊",
+     ":/emoji/vx/Slap.png": "掌掴",
+     ":/emoji/vx/Social.png": "社会",
+     ":/emoji/vx/Sweat.png": "流汗",
+     ":/emoji/vx/Watermelon.png": "吃瓜",
+     ":/emoji/vx/Wow!.png": "哇塞！",
+     ":/emoji/vx/Yellowdog.png": "狗头"
+    }
+  },
+  {
+    "label": "经典",
+    "row-column":[12,12],
+    "size": [40, 40],
+    "movie-size": [65, 65],
+    "image": {
+      ":/resource/emojis/qq/100@2x.gif": "dasdf",
+      ":/resource/emojis/qq/102@2x.gif": "dasdf",
+      ":/resource/emojis/qq/103@2x.gif": "dasdf",
+      ":/resource/emojis/qq/104@2x.gif": "dasdf",
+      ":/resource/emojis/qq/105@2x.gif": "dasdf",
+      ":/resource/emojis/qq/106@2x.gif": "dasdf",
+      ":/resource/emojis/qq/107@2x.gif": "dasdf",
+      ":/resource/emojis/qq/108@2x.gif": "dasdf"
+    }
+  }
+]

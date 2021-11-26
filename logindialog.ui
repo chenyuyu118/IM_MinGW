@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:Lightblue;
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>0</y>
+     <width>451</width>
+     <height>633</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-left-color: rgb(160, 255, 195);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="rsc.qrc">:/image/蓝色纸飞机.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="image_label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>70</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>100</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>63</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="rsc.qrc">:/image/375345853.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>280</y>
+     <width>290</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>290</width>
+     <height>35</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+	border-top-color:lightBlue;
+	border-left-color:lightBlue;
+	border-right-color:lightBlue;
+	border-bottom-color: rgba(89, 130, 204, 248);
+	border-bottom-width: 0px;
+	border-width: 1px;
+	border-style: solid;
+	padding:1px, 5px, 3px, 3px;
+	font: 12pt &quot;MS UI Gothic&quot;;
+}
+
+QComboBox::down-arrow{
+	image:url(&quot;:/image/下箭头.png&quot;);
+}
+
+QComboBox::down-arrow:pressed{
+	color:red;
+	image:url(:/image/上箭头.png);
+}
+
+</string>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>350</y>
+     <width>290</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>290</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{padding: 10px, 10px, 10px, 10px;
+	border-color:lightBlue;
+	
+	border-bottom-color: rgb(36, 112, 211);
+	border-width:1px;
+	border-style:solid;
+	font: 12pt &quot;MS UI Gothic&quot;;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>551</x>
+     <y>481</y>
+     <width>93</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">* {
+	background-color: rgb(90, 78, 221);
+	font: 25 11pt &quot;微软雅黑 Light&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>481</y>
+     <width>93</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">* {
+	background-color: rgb(90, 78, 221);
+	font: 25 11pt &quot;微软雅黑 Light&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>491</x>
+     <y>421</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	color:grey;
+	
+	font: 11pt &quot;微软雅黑&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>自动登陆</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>786</x>
+     <y>421</y>
+     <width>72</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	color:grey;
+	
+	font: 11pt &quot;微软雅黑&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>找回密码</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>597</x>
+     <y>421</y>
+     <width>99</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	color:grey;
+	
+	font: 11pt &quot;微软雅黑&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>记住密码</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

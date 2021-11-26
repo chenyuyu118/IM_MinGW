@@ -1,0 +1,17 @@
+{
+  "FriendList" :  {
+    "xiaoming" : 12345678,
+    "xiaohong" : 12345679,
+    "小白" : 15976328,
+    "大侠" : 54665489,
+    "大佬" : 96547852
+  } ,
+  "GroupList" :  {
+    "帅哥交流群" : 555666777,
+    "美女交流群" : 985456623,
+    "都是傻逼" : 556595662
+  },
+  "MessageList" : "fsdfasdf",
+  "Settings": "dasfsdfas",
+  "MyInfo": "fsdfasf"
+}

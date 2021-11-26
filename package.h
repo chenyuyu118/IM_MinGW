@@ -1,0 +1,15 @@
+#ifndef PACKAGE_H
+#define PACKAGE_H
+
+#define PACKET_REG 0
+#define PACKET_REG_BACK 1
+#define PACKET_LOG 2
+#define PACKET_LOG_BACK 3
+#define PACKET_MULTIPULTEXT 4
+#define PACKET_ADD_FRI_RQ 5
+#define PACKET_ADD_FRI_RQ_BACK 6
+#define PACKET_ADD_FRI_RS 7
+
+
+
+#endif // PACKAGE_H

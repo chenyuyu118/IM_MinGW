@@ -1,0 +1,9 @@
+EmotionWidget
+{
+	border: none;	/*最外层边框*/
+}
+EmotionWidget::item
+{
+	border: none;	/*最外层边框*/
+}
+
